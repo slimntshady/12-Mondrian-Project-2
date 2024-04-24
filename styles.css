@@ -1,0 +1,41 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 85px 235px 55px;
+    grid-template-rows: 105px 219px 62.5px 62.5px;
+    width: 396px; 
+    height: 480px;
+    background-color: black;
+    gap: 10px;
+    border: solid black 10px;
+}
+
+.item{
+    background-color: antiquewhite;
+}
+
+.red{
+    grid-column: span 2;
+    grid-row: span 2;
+    background-color: red;
+}
+
+.blue{
+    grid-row: span 2;
+    background-color: blue;
+}
+
+.yellow{
+    background-color: yellow;
+}
+
+.white3{
+    grid-row: span 2;
+}
